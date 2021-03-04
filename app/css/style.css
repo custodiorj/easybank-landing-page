@@ -177,7 +177,7 @@ h2 {
 
 .showcase .showcase-image {
     position: relative;
-    background-image: url('/images/bg-intro-mobile.svg');
+    background-image: url('../images/bg-intro-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -188,7 +188,7 @@ h2 {
 
 .showcase .showcase-image::after {
     content: '';
-    background-image: url('/images/image-mockups.png');
+    background-image: url('../images/image-mockups.png');
     position: absolute;
     background-size: 97%;
     background-repeat: no-repeat;
@@ -624,14 +624,14 @@ button:hover {
         order: 2;
         height: 41rem;
         background-image: none;
-        /*background-image: url('/images/bg-intro-desktop.svg');
+        /*background-image: url('../images/bg-intro-desktop.svg');
         background-position: left center;
         */
     }
 
     .showcase .showcase-image::before {
         content: '';
-        background-image: url('/images/bg-intro-desktop.svg');
+        background-image: url('../images/bg-intro-desktop.svg');
         position: absolute;
         background-size: 122%;
         background-repeat: no-repeat;
